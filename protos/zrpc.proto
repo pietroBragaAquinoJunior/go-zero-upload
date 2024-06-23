@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package zrpc;
+
+option go_package = "./";
+
+message ZrpcMethodRequest {
+  string image = 1;
+  string filename = 2;
+}
+
+message ZrpcMethodResponse {}
+
+service ZrpcService {
+  rpc ZrpcMethod(ZrpcMethodRequest) returns (ZrpcMethodResponse);
+}
