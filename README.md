@@ -1,6 +1,6 @@
 # go-zero-upload
 
-Projeto em go-zero com endpoint de upload de arquivos
+Projeto backend em go-zero com endpoint de upload de arquivos.
 
 canal: https://www.youtube.com/@pietrobraga523/videos
 
